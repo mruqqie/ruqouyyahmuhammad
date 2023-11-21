@@ -13,6 +13,28 @@
 	color-scheme: dark;
 }
 
+.decagon {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(192, 196, 202);
+	clip-path: polygon(
+		34.54915% 2.44717%,
+		65.45085% 2.44717%,
+		90.45085% 20.61074%,
+		100% 50%,
+		90.45085% 79.38926%,
+		65.45085% 97.55283%,
+		34.54915% 97.55283%,
+		9.54915% 79.38926%,
+		0% 50%,
+		9.54915% 20.61074%
+	);
+	border-radius: 15px;
+	z-index: 10;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .hash-span {
 	margin-top: -100px;
 	padding-bottom: 100px;
@@ -42,6 +64,7 @@
 		rgba(60, 51, 80, 0) 100%
 	);
 }
+
 
 .green-pink-gradient {
 	background: "#00cea8";

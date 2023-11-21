@@ -34,8 +34,12 @@ export const navLinks = [
 		title: "About",
 	},
 	{
-		id: "work",
-		title: "Work",
+		id: "experience",
+		title: "Experience",
+	},
+	{
+		id: "projects",
+		title: "Projects",
 	},
 	{
 		id: "contact",
@@ -135,7 +139,7 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Web Developer",
+		title: "Web Developer Intern",
 		company_name: "RadicalX",
 		icon: radicalx,
 		iconBg: "#383E56",

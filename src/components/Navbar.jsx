@@ -30,7 +30,7 @@ const Navbar = () => {
 						<span className="sm:block hidden">Muhammad</span>
 					</p>
 				</Link>
-				<ul className="list-none hidden sm:flex flex-row gap-7">
+				<ul className="list-none hidden md:flex flex-row gap-5">
 					{navLinks.map((link) => (
 						<li
 							key={link.id}
@@ -38,14 +38,14 @@ const Navbar = () => {
 								active === link.title
 									? "text-white"
 									: "text-secondary"
-							} hover:text-white text-[18px] font-medium cursor-pointer`}
+							} hover:text-white text-[17px] font-medium cursor-pointer`}
 							onClick={() => setActive(link.title)}
 						>
 							<a href={`#${link.id}`}>{link.title}</a>
 						</li>
 					))}
 				</ul>
-				<div className="sm:hidden flex flex-1 justify-end items-center">
+				<div className="md:hidden flex flex-1 justify-end items-center">
 					<img
 						src={toggle ? close : menu}
 						alt="menu"

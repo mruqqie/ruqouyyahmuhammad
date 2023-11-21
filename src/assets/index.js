@@ -24,7 +24,7 @@ import mui from "./tech/mui.png";
 import nextjs from "./tech/nextjs.png";
 import nestjs from "./tech/nestjs.png";
 import python from "./tech/python.png";
-import firebase from "./tech/firebase.png";
+import firebase from "./tech/firebase.svg";
 
 import radicalx from "./company/radicalX.png";
 import freelance from "./company/freelance.png";
