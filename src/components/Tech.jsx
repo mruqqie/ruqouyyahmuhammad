@@ -9,7 +9,7 @@ const Tech = () => {
 			{technologies.map((technology) => (
 				<Tilt>
 					<div
-						className="w-28 violet-gradient h-28 relative rounded-md decagon shadow-md"
+						className="w-28 green-pink-gradient h-28 relative rounded-md decagon shadow-md"
 						key={technology.name}
 					>
 						<img
