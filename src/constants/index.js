@@ -168,7 +168,7 @@ const experiences = [
 
 const projects = [
 	{
-		name: "Hi-llo",
+		name: "Hi-Llo Chat App",
 		description:
 			"Web-based platform that allows users to search and chat with their friends and loved ones in realtime.",
 		tags: [
@@ -187,6 +187,7 @@ const projects = [
 		],
 		image: hiLlo,
 		source_code_link: "https://github.com/mruqqie/Hi-Llo",
+		project_link: "https://mruqqie.github.io/Hi-Llo",
 	},
 	{
 		name: "Weather Journal",
@@ -221,6 +222,7 @@ const projects = [
 		],
 		image: tictactoe,
 		source_code_link: "https://github.com/mruqqie/tictactoe",
+		project_link: "https://mruqqie.github.io/tictactoe/",
 	},
 	{
 		name: "Youtube Clone",
@@ -232,12 +234,13 @@ const projects = [
 				color: "blue-text-gradient",
 			},
 			{
-				name: "material ui",
+				name: "materialUI",
 				color: "pink-text-gradient",
 			},
 		],
 		image: youtube,
 		source_code_link: "https://github.com/mruqqie/youtube_clone",
+		project_link: "https://mruqqie.github.io/youtube_clone/",
 	},
 ];
 
