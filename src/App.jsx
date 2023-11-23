@@ -13,7 +13,7 @@ import {
 
 const App = () => {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/ruqouyyahmuhammad">
 			<div className="relative z-0 bg-primary ">
 				<div >
 					<Navbar />
