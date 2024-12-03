@@ -26,6 +26,12 @@ import {
 	weatherjournal,
 	tictactoe,
 	freelance,
+	mmit,
+	gurugeeks,
+	dokta,
+	ggacademy,
+	doktaps,
+	behive,
 } from "../assets";
 
 export const navLinks = [
@@ -49,11 +55,11 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Frontend Developer",
 		icon: web,
 	},
 	{
-		title: "Frontend Developer",
+		title: "Mobile Developer",
 		icon: mobile,
 	},
 	{
@@ -139,6 +145,64 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "Frontend Developer",
+		company_name: "MentorMeInTech",
+		icon: mmit,
+		iconBg: "#000000",
+		date: "January 2024 - Present",
+		points: [
+			"Designed and implemented scalable frontend architecture for the Mentormeintech web application, ensuring efficient performance and seamless feature integration.",
+			"Implemented calendar availability and mentor session booking features, enhancing scheduling efficiency and user engagement.",
+			"Implemented responsive design principles for optimal user experience across diverse devices.",
+			"Collaborated closely with backend developers to ensure seamless integration and enhanced functionality.",
+		],
+	},
+	{
+		title: "Software Developer",
+		company_name: "Gurugeeks Royalty",
+		icon: gurugeeks,
+		iconBg: "#ffffff",
+		date: "June 2024 - September 2024",
+		points: [
+			"Led a team of developers to successfully rebuild the company website from the ground up using Next.js, resulting in improved performance, enhanced user experience, and streamlined maintenance.",
+			"Spearheaded the development of an online academy platform, collaborating closely with backend developers, UI/UX designers, project managers, and product managers to deliver a fully functional and user-friendly learning management system.",
+			"Managed and fulfilled client requests, overseeing the development of new pages, features, and customizations on the client's website using WordPress, ensuring timely delivery and client satisfaction.",
+			"Collaborated with cross-functional teams to align technical solutions with business needs, implementing microservices-like practices for managing user authentication, course management, and analytics as independent modules.",
+			"Coordinated with DevOps engineers to troubleshoot deployment issues, ensuring compatibility between various service layers.",
+		],
+	},
+	{
+		title: "Mobile App Developer",
+		company_name: "Dokta Health",
+		icon: dokta,
+		iconBg: "#ffffff",
+		date: "April 2024 - July 2024",
+		points: [
+			"Optimized the mobile application architecture for enhanced performance on both iOS and Android platforms.",
+			"Collaborated with cross-functional teams to implement new features and improve existing ones, ensuring a seamless user experience.",
+			"Optimized application performance for both Android and iOS platforms, improving load times and responsiveness.",
+			"Integrated RESTful APIs to facilitate communication between mobile app modules and backend services, adhering to microservices principles.",
+			"Regularly updated the application to ensure compatibility with the latest mobile operating systems and devices.",
+			"Worked with the team to troubleshoot and resolve issues efficiently.",
+		],
+	},
+	{
+		title: "Software Developer",
+		company_name: "Freelancer",
+		icon: freelance,
+		iconBg: "#E6DEDD",
+		date: "January 2022 - December 2023",
+		points: [
+			"Designed and implemented scalable web applications using the MERN stack, incorporating reusable components and ensuring maintainability.",
+			"Built RESTful APIs and database schemas, aligning with principles of distributed systems and modular design.",
+			"Implemented security measures to protect websites and applications from potential vulnerabilities, ensuring a secure user experience",
+			"Ensured secure database management systems using MongoDB and PostgreSQL.",
+			"Demonstrated a strong ability to debug code, identify and resolve technical issues to maintain project timelines and minimize downtime.",
+			"Implemented responsive design and ensuring cross-browser compatibility.",
+			"Created email templates with responsive design and cross-platform compatibility.",
+		],
+	},
+	{
 		title: "Web Developer Intern",
 		company_name: "RadicalX",
 		icon: radicalx,
@@ -147,26 +211,73 @@ const experiences = [
 		points: [
 			"Collaborated with a team of developers to create a fully functional internship website using React js and Node js.",
 			"Translated Figma designs into responsive front-end components and implemented back-end functionalities including handling HTTP requests, managing databases, and server-side.",
-			"Worked with team of designers, developers, and project managers and participated in Agile-based project management, contributing to sprint planning, and retrospective meetings",
-		],
-	},
-	{
-		title: "Web Developer",
-		company_name: "Freelance",
-		icon: freelance,
-		iconBg: "#E6DEDD",
-		date: "June 2022 - Present",
-		points: [
-			"Utilized a comprehensive tech stack to develop websites and web apps, including front-end technologies such as HTML, CSS, JavaScript, and React framework.",
-			"Leveraged back-end technologies, such as Node.js and Python to build robust server-side functionalities, RESTful APIs, and database management systems with MongoDB and PostgreSQL.",
-			"Implemented security measures to protect websites and applications from potential vulnerabilities, ensuring a secure user experience",
-			"Demonstrated a strong ability to debug code, identify and resolve technical issues to maintain project timelines and minimize downtime.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Worked with team of designers, developers, and project managers and participated in Agile-based project management, contributing to sprint planning, and retrospective meetings.",
 		],
 	},
 ];
 
 const projects = [
+	{
+		name: "Gurugeeks Academy",
+		description:
+			"An online learning platform offering tech courses, designed with a user-friendly interface and efficient learning management features.",
+		tags: [
+			{
+				name: "nextjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "redux",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwindcss",
+				color: "pink-text-gradient",
+			},
+		],
+		image: ggacademy,
+		project_link: "https://gurugeeksacademy.com/",
+	},
+	{
+		name: "Dokta",
+		description:
+			"A telemedicine mobile application enabling users to consult with doctors remotely, offering free consultations and a seamless user experience.",
+		tags: [
+			{
+				name: "reactnative",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "firebase",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwindcss",
+				color: "pink-text-gradient",
+			},
+		],
+		image: doktaps,
+		project_link:
+			"https://play.google.com/store/apps/details?id=com.zanantis.doktaapp",
+	},
+	{
+		name: "Behive",
+		description:
+			"A community and lifestyle hub.",
+		tags: [
+			{
+				name: "wordpress",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: behive,
+		project_link:
+			"https://behiveng.com/",
+	},
 	{
 		name: "Hi-Llo Chat App",
 		description:

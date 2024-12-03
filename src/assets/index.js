@@ -4,7 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
-import link from "./link.png"
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,11 +29,17 @@ import firebase from "./tech/firebase.svg";
 
 import radicalx from "./company/radicalX.png";
 import freelance from "./company/freelance.png";
+import mmit from "./company/mmit.ico";
+import gurugeeks from "./company/gurugeeks.svg";
+import dokta from "./company/dokta.jpg";
 
 import youtube from "./youtubeclone.png";
 import hiLlo from "./hillo.png";
 import weatherjournal from "./weatherjournal.png";
 import tictactoe from "./tictactoe.png";
+import ggacademy from "./ggacademy.png";
+import doktaps from "./dokta.png";
+import behive from "./behiveng.png";
 
 export {
 	logo,
@@ -65,8 +71,14 @@ export {
 	firebase,
 	radicalx,
 	freelance,
+	mmit,
+	gurugeeks,
+	dokta,
 	youtube,
 	hiLlo,
 	weatherjournal,
 	tictactoe,
+	ggacademy,
+	doktaps,
+	behive,
 };

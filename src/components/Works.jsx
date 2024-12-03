@@ -22,19 +22,21 @@ const ProjectCard = ({ project, index }) => {
 					/>
 				</div>
 				<div className="absolute inset-3 flex gap-1 justify-end m-3 card-img_hover">
-					<div
-						onClick={() =>
-							window.open(project.source_code_link, "_blank")
-						}
-						className="black-gradient w-7 h-7 xs:w-10 xs:h-10 rounded-full flex justify-center items-center cursor-pointer"
-					>
-						<img
-							src={github}
-							alt="github"
-							className="w-1/2 h-1/2 object-contain"
-						/>
-					</div>
-					{project.name !== "Weather Journal" && (
+					{project.source_code_link && (
+						<div
+							onClick={() =>
+								window.open(project.source_code_link, "_blank")
+							}
+							className="black-gradient w-7 h-7 xs:w-10 xs:h-10 rounded-full flex justify-center items-center cursor-pointer"
+						>
+							<img
+								src={github}
+								alt="github"
+								className="w-1/2 h-1/2 object-contain"
+							/>
+						</div>
+					)}
+					{project.project_link && (
 						<div
 							onClick={() =>
 								window.open(project.project_link, "_blank")
@@ -51,11 +53,16 @@ const ProjectCard = ({ project, index }) => {
 				</div>
 				<div className="mt-5">
 					<h3 className="font-bold text-[24px]">{project.name}</h3>
-					<p className="mt-2 text-secondary text-[14px]">{project.description}</p>
+					<p className="mt-2 text-secondary text-[14px]">
+						{project.description}
+					</p>
 				</div>
 				<div className="mt-4 flex flex-wrap gap-2">
 					{project.tags.map((tag) => (
-						<p key={tag.name} className={`text-[14px] ${tag.color}`}>
+						<p
+							key={tag.name}
+							className={`text-[14px] ${tag.color}`}
+						>
 							#{tag.name}
 						</p>
 					))}
