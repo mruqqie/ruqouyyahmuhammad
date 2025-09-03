@@ -44,7 +44,7 @@ const About = () => {
 			>
 				I&apos;m a software developer passionate about engineering
 				scalable solutions and seamless digital experiences. Skilled in
-				TypeScript, JavaScript, and frameworks their frameworks, I
+				TypeScript, JavaScript, and their frameworks, I
 				specialize in building robust and intuitive solutions.
 				I enjoy solving complex problems, learning continuously, and
 				collaborating to bring impactful ideas to life. Let&apos;s
