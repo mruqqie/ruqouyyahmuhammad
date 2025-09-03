@@ -32,6 +32,7 @@ import freelance from "./company/freelance.png";
 import mmit from "./company/mmit.ico";
 import gurugeeks from "./company/gurugeeks.svg";
 import dokta from "./company/dokta.jpg";
+import mentlypup from "./company/pupHead.png";
 
 import youtube from "./youtubeclone.png";
 import hiLlo from "./hillo.png";
@@ -40,6 +41,8 @@ import tictactoe from "./tictactoe.png";
 import ggacademy from "./ggacademy.png";
 import doktaps from "./dokta.png";
 import behive from "./behiveng.png";
+import mently from "./mently.png";
+import mmitsite from "./mmit.png";
 
 export {
 	logo,
@@ -81,4 +84,7 @@ export {
 	ggacademy,
 	doktaps,
 	behive,
+	mently,
+	mentlypup,
+	mmitsite,
 };

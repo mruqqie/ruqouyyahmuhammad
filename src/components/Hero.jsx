@@ -21,9 +21,11 @@ const Hero = () => {
 					<p
 						className={`${styles.heroSubText} mt-2 text-white-100 xs:w-[300px] md:w-[65%] sm:w-[65%] w-[219px]`}
 					>
-						I transform ideas into delightful websites with a dash
-						of creativity and coding magic. Let's embark on a
-						digital adventure together!
+						I craft scalable software and seamless digital
+						experiences, turning complex ideas into powerful
+						solutions.
+						{/* I transform ideas into robust applications with
+						precision, creativity, and a love for clean engineering. */}
 					</p>
 				</div>
 			</div>

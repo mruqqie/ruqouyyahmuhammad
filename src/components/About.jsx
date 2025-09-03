@@ -42,12 +42,13 @@ const About = () => {
 				className="mt-4 text-secondary text-[17px]
 				max-w-3xl leading-[30px]"
 			>
-				I'm a web developer passionate about creating seamless digital
-				experiences. With expertise in TypeScript and JavaScript and
-				frameworks like Node Js, React Js, and more, I specialize in
-				crafting robust backends and user-friendly interfaces. I thrive
-				on continuous learning and collaborative projects. Let's connect
-				and explore the possibilities!
+				I&apos;m a software developer passionate about engineering
+				scalable solutions and seamless digital experiences. Skilled in
+				TypeScript, JavaScript, and frameworks their frameworks, I
+				specialize in building robust and intuitive solutions.
+				I enjoy solving complex problems, learning continuously, and
+				collaborating to bring impactful ideas to life. Let&apos;s
+				connect and build something great together!
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (

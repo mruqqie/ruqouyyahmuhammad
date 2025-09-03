@@ -32,6 +32,9 @@ import {
 	ggacademy,
 	doktaps,
 	behive,
+	mently,
+	mentlypup,
+	mmitsite,
 } from "../assets";
 
 export const navLinks = [
@@ -146,10 +149,25 @@ const technologies = [
 const experiences = [
 	{
 		title: "Frontend Developer",
+		company_name: "Mently Technologies",
+		icon: mentlypup,
+		iconBg: "#000000",
+		date: "December 2024 - Present",
+		points: [
+			"Developed and maintained a dynamic web platform for hosting mentor-led programs, designed to support both short- and long-term learning engagements.",
+			"Implemented robust frontend architecture using modern frameworks to support features such as curriculum management, program creation, group and forum segmentation, and real-time video conferencing with screen sharing.",
+			"Built and integrated custom components to support seamless video meetings, live group calls, and collaborative learning spaces within mentor-led programs.",
+			"Engineered a flexible role-based access control (RBAC) system to distinctly manage permissions for admins, mentors, and students, enhancing platform security and user experience.",
+			"Collaborated closely with designers, backend developers, and product teams to deliver intuitive and scalable UI/UX solutions aligned with business goals.",
+			"Ensured full responsiveness and cross-device compatibility while optimizing performance for rich, interactive experiences.",
+		],
+	},
+	{
+		title: "Frontend Developer",
 		company_name: "MentorMeInTech",
 		icon: mmit,
 		iconBg: "#000000",
-		date: "January 2024 - Present",
+		date: "January 2024 - December 2024",
 		points: [
 			"Designed and implemented scalable frontend architecture for the Mentormeintech web application, ensuring efficient performance and seamless feature integration.",
 			"Implemented calendar availability and mentor session booking features, enhancing scheduling efficiency and user engagement.",
@@ -218,6 +236,72 @@ const experiences = [
 
 const projects = [
 	{
+		name: "Mently",
+		description:
+			"An all-in-one platform for mentorships, programs, trainings, and building impactful communities.",
+		tags: [
+			{
+				name: "nextjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "zustand",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwindcss",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "pusher",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "agora",
+				color: "green-text-gradient",
+			},
+			{
+				name: "firebase",
+				color: "pink-text-gradient",
+			},
+		],
+		image: mently,
+		project_link: "https://mymently.com/",
+	},
+	{
+		name: "MentorMeInTech Platform",
+		description:
+			"An online learning platform offering tech courses, designed with a user-friendly interface and efficient learning management features.",
+		tags: [
+			{
+				name: "reactjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "redux",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwindcss",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "materialUI",
+				color: "green-text-gradient",
+			},
+			{
+				name: "framermotion",
+				color: "pink-text-gradient",
+			},
+		],
+		image: mmitsite,
+		project_link: "https://mentormeintech.com/",
+	},
+	{
 		name: "Gurugeeks Academy",
 		description:
 			"An online learning platform offering tech courses, designed with a user-friendly interface and efficient learning management features.",
@@ -262,8 +346,7 @@ const projects = [
 	},
 	{
 		name: "Behive",
-		description:
-			"A community and lifestyle hub.",
+		description: "A community and lifestyle hub.",
 		tags: [
 			{
 				name: "wordpress",
@@ -275,8 +358,7 @@ const projects = [
 			},
 		],
 		image: behive,
-		project_link:
-			"https://behiveng.com/",
+		project_link: "https://behiveng.com/",
 	},
 	{
 		name: "Hi-Llo Chat App",
@@ -300,23 +382,23 @@ const projects = [
 		source_code_link: "https://github.com/mruqqie/Hi-Llo",
 		project_link: "https://mruqqie.github.io/Hi-Llo",
 	},
-	{
-		name: "Weather Journal",
-		description:
-			"A web application that provides weather and temperature conditions of a location (zip code) to users.",
-		tags: [
-			{
-				name: "nodejs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: weatherjournal,
-		source_code_link: "https://github.com/mruqqie/Weather-journal-app",
-	},
+	// {
+	// 	name: "Weather Journal",
+	// 	description:
+	// 		"A web application that provides weather and temperature conditions of a location (zip code) to users.",
+	// 	tags: [
+	// 		{
+	// 			name: "nodejs",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: weatherjournal,
+	// 	source_code_link: "https://github.com/mruqqie/Weather-journal-app",
+	// },
 	{
 		name: "TicTacToe",
 		description:
@@ -335,24 +417,24 @@ const projects = [
 		source_code_link: "https://github.com/mruqqie/tictactoe",
 		project_link: "https://mruqqie.github.io/tictactoe/",
 	},
-	{
-		name: "Youtube Clone",
-		description:
-			"Allows users to experience a familiar world of video content with seamless video streaming.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "materialUI",
-				color: "pink-text-gradient",
-			},
-		],
-		image: youtube,
-		source_code_link: "https://github.com/mruqqie/youtube_clone",
-		project_link: "https://mruqqie.github.io/youtube_clone/",
-	},
+	// {
+	// 	name: "Youtube Clone",
+	// 	description:
+	// 		"Allows users to experience a familiar world of video content with seamless video streaming.",
+	// 	tags: [
+	// 		{
+	// 			name: "react",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "materialUI",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: youtube,
+	// 	source_code_link: "https://github.com/mruqqie/youtube_clone",
+	// 	project_link: "https://mruqqie.github.io/youtube_clone/",
+	// },
 ];
 
 export { services, technologies, experiences, projects };
