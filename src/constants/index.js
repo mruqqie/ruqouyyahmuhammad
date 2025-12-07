@@ -42,6 +42,10 @@ export const navLinks = [
 		id: "about",
 		title: "About",
 	},
+	// {
+	// 	id: "bio",
+	// 	title: "My Bio",
+	// },
 	{
 		id: "experience",
 		title: "Experience",
@@ -65,10 +69,10 @@ const services = [
 		title: "Mobile Developer",
 		icon: mobile,
 	},
-	{
-		title: "Backend Developer",
-		icon: backend,
-	},
+	// {
+	// 	title: "Backend Developer",
+	// 	icon: backend,
+	// },
 ];
 
 const technologies = [
