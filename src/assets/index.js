@@ -43,6 +43,7 @@ import doktaps from "./dokta.png";
 import behive from "./behiveng.png";
 import mently from "./mently.png";
 import mmitsite from "./mmit.png";
+import me from "./ruqouyyahmuhammad.jpg";
 
 export {
 	logo,
@@ -87,4 +88,5 @@ export {
 	mently,
 	mentlypup,
 	mmitsite,
+	me
 };

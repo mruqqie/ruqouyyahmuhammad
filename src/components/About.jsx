@@ -61,18 +61,20 @@ const About = () => {
 			</motion.p>
 			<motion.div
 				variants={fadeIn("", "", 0.2, 1)}
-				className="mt-8 w-full max-w-3xl aspect-video
-             rounded-2xl backdrop-blur
-             bg-white/5 border border-white/10
-             flex flex-col items-center justify-center gap-2"
+				className="mt-8 w-full max-w-[250px] sm
+				:max-w-sm aspect-video
+             rounded-2xl overflow-hidden
+             backdrop-blur bg-white/5
+             border border-white/10"
 			>
-				<div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
-					▶
-				</div>
-				<p className="text-secondary text-sm">
-					Intro video dropping soon
-				</p>
+				<iframe
+					src="https://drive.google.com/file/d/1v9IplMemZWrK7tPFEyCc_XnbH1uVqBZj/preview"
+					allow="autoplay"
+					allowFullScreen
+					className="w-full h-full rounded-2xl"
+				/>
 			</motion.div>
+
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
 					<ServiceCard
