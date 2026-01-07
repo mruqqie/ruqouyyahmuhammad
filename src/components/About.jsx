@@ -59,7 +59,7 @@ const About = () => {
 				projects, and developing features that increased user engagement
 				and streamlined critical workflows.
 			</motion.p>
-			<motion.div
+			{/* <motion.div
 				variants={fadeIn("", "", 0.2, 1)}
 				className="mt-8 w-full max-w-[250px] sm
 				:max-w-sm aspect-video
@@ -73,7 +73,7 @@ const About = () => {
 					allowFullScreen
 					className="w-full h-full rounded-2xl"
 				/>
-			</motion.div>
+			</motion.div> */}
 
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (

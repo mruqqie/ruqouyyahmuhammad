@@ -31,16 +31,16 @@ const Hero = () => {
 				</div>
 			</div>
 			{/* <ComputersCanvas /> */}{" "}
-			<img
+			{/* <img
 				src={me}
 				alt="ruqouyyah muhammad"
 				className="absolute w-[350px] xs:w-[60%] sm:w-[55%] md:w-[50%] lg:w-[400px] hidden lg:block right-5 rounded-[50px] bottom-12 xs:bottom-0 object-contain"
-			/>
-			{/* <img
+			/> */}
+			<img
 				src="https://media.giphy.com/media/NZGAxVxfOvOzEhjQ7M/giphy.gif"
 				alt="Animated GIF"
 				className="absolute w-[350px] xs:w-[60%] sm:w-[55%] md:w-[50%] lg:w-[40%] right-0 bottom-12 xs:bottom-0 object-cover"
-			/> */}
+			/>
 			{/* <div
 				className="absolute bottom-1 w-full flex justify-center
 				items-center "
